@@ -1,0 +1,13 @@
+run,recordings,segments,silhouette,davies_bouldin,calinski_harabasz,lm_perplexity,abx_encoder,abx_mfcc,behaviour_acc,behaviour_n,behaviour_method,protocol
+Reference run,150.0,4234.0,0.0339,,,25.99,0.58,0.599,0.6327,,not recorded,segment folds
+Run 1,150.0,3832.0,0.0806,2.341,212.9,7.639,0.572,0.5733,0.4444,45.0,pooled probe,"segment folds, fallback constants"
+Run 2,300.0,9408.0,0.0809,2.406,605.8,6.452,0.5533,0.5607,0.5333,45.0,pooled probe,"segment folds, fallback constants"
+Run 3,900.0,27597.0,0.0733,2.408,1827.7,6.338,0.5747,0.5607,0.3778,45.0,pooled probe,"segment folds, fallback constants"
+Run 4,900.0,27597.0,0.0733,2.408,1827.7,6.338,0.5747,0.5607,0.4778,180.0,MLP 128-64,"segment folds, fallback constants"
+Run 5,900.0,27597.0,0.0523,3.129,1418.6,5.45,0.566,0.5607,0.61,300.0,supervised adapter MLP,"segment folds, fallback constants"
+Run 6,900.0,27597.0,0.0523,3.129,1418.6,5.418,0.566,0.5607,0.6489,450.0,deep adapter,"segment folds, fallback constants"
+Run 7,900.0,27597.0,0.044,3.247,1054.8,8.081,0.566,0.5607,0.6267,450.0,ensemble,"segment folds, fallback constants"
+Run 8,900.0,27597.0,0.0523,3.129,1418.6,5.419,0.566,0.5607,0.6821,475.0,LSTM + pseudo-labels,"segment folds, early stopping on test fold"
+Run 9,1200.0,37401.0,0.0519,3.035,1453.6,7.122,0.566,0.5607,0.6358,,XGBoost,segment folds
+Run 10,1500.0,45961.0,,,,,,,0.7052,,MLP + pseudo-labels,"segment folds, threshold chosen on pseudo-labelled CV"
+HuBERT notebook,,,0.0548,,,16.35,0.5888,0.5502,0.545,66.0,pooled probe,segment folds

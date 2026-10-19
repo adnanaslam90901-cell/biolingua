@@ -1,0 +1,7 @@
+species,recordings,median_length_s,labelled_strict,labelled_expanded,segments
+Corvus corone,220,16.0,196,196,2405
+Erithacus rubecula,260,71.0,240,246,6046
+Fringilla coelebs,258,61.0,236,233,5471
+Parus major,260,55.0,238,244,5089
+Turdus merula,260,93.0,247,248,7042
+TOTAL,1258,60.0,1157,1167,26053

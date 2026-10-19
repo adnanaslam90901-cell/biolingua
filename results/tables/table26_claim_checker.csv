@@ -1,0 +1,9 @@
+claim,evidence,verdict
+Species can be told apart above chance by the primary representation (ABX > 0.5),"ABX = 0.534 [0.521, 0.548]",supported
+The adapted representation beats MFCC on ABX,"ABX difference (adapted minus MFCC) = -0.042, adjusted p = 0.00585",not supported
+The contrastive adapter improves ABX over the raw encoder,"ABX difference (adapted minus raw) = -0.047, adjusted p = 0.00585",not supported
+Weak behaviour labels are predictable above chance with recording-level folds,"best macro-F1 = 0.698 [0.641, 0.743] (LM embedding + logreg)",supported
+Token usage is associated with weak behaviour (recording-level permutation test),"Cramer's V = 0.457, p = 0.0010",supported
+Pseudo-labelling improves behaviour classification,2 thresholds significant,not supported
+Random segment folds inflate accuracy compared with recording-level folds,mean accuracy inflation = +0.049 across 5 classifiers (51% of naive test segments had a sibling in training),supported
+A bird-trained encoder beats speech encoders on ABX,"birdaves-base 0.585 [0.572, 0.597] against wav2vec2-large-lv60 0.615 [0.602, 0.626] (non-overlapping intervals are required)",not supported

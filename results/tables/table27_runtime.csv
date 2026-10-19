@@ -1,0 +1,23 @@
+stage,seconds,minutes
+data collection,0.0,0.0
+segmentation,0.0,0.0
+encoder benchmark,297.5,4.958333333333333
+adapter evaluation,21.8,0.36333333333333334
+final vocabulary,0.0,0.0
+language model,38.6,0.6433333333333333
+interpretation,60.5,1.0083333333333333
+held-out encoder comparison,71.2,1.1866666666666668
+classifier comparison,0.0,0.0
+feature set comparison,0.0,0.0
+leakage audit,46.5,0.775
+pseudo-labelling,43.2,0.7200000000000001
+frame-level BiLSTM,17.5,0.2916666666666667
+frame extraction,0.1,0.0016666666666666668
+frame unit sweep,22.5,0.375
+suite E02 E03 layers pooling,53.9,0.8983333333333333
+suite E04 E05 adapter,106.6,1.7766666666666666
+suite E08 augmentation,34.2,0.5700000000000001
+suite E09 to E12 clustering,79.7,1.3283333333333334
+suite E19 seeds,42.5,0.7083333333333334
+suite E21 encoders,52.9,0.8816666666666666
+scaling study,0.0,0.0

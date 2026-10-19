@@ -1,0 +1,6 @@
+species,segments,recordings,abx_vs_others,abx_lo,abx_hi,clusters_used,top_cluster_share
+Turdus merula,500,39,0.5264,0.51139,0.53921,26,0.13
+Parus major,500,39,0.5126,0.497385,0.5248200000000001,26,0.116
+Corvus corone,411,33,0.556,0.53939,0.568615,21,0.15815085158150852
+Erithacus rubecula,500,37,0.5532,0.53858,0.56422,24,0.12
+Fringilla coelebs,500,38,0.537,0.523195,0.5496,22,0.142

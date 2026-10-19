@@ -1,0 +1,75 @@
+setting,value
+preset,standard
+seed,42
+data_source,auto
+species,"('Turdus merula', 'Parus major', 'Corvus corone', 'Erithacus rubecula', 'Fringilla coelebs')"
+recordings_per_species,200
+quality_grades,"('A', 'B')"
+targeted_label_queries,True
+targeted_recordings_per_label,20
+api_url,https://xeno-canto.org/api/3/recordings
+api_timeout,90
+api_retries,3
+api_pause,0.4
+download_workers,4
+sample_rate,16000
+segment_seconds,3.0
+min_segment_seconds,1.0
+trim_top_db,30.0
+normalize,True
+denoise,True
+max_recording_seconds,120.0
+max_segments_per_recording,40
+preprocess_workers,4
+split_fractions,"(0.7, 0.15, 0.15)"
+encoder_candidates,"('hubert-base', 'wav2vec2-base', 'wav2vec2-large-lv60', 'birdaves-base', 'birdaves-large')"
+primary_encoder,auto
+encoder_batch_size,16
+use_fp16,True
+layer_fractions,"(0.25, 0.5, 0.75, 1.0)"
+eval_segments_per_species,500
+eval_labelled_per_class,300
+adapter_train_segments,6000
+adapter_val_segments,1200
+adapter_views,3
+adapter_dim,128
+adapter_hidden,256
+adapter_epochs,40
+adapter_patience,6
+adapter_lr,0.002
+adapter_temperature,0.1
+pca_variance,0.95
+pca_min_components,16
+pca_max_components,128
+k_grid,"(10, 20, 30, 50, 75)"
+cluster_seeds,"(42, 43, 44, 45, 46)"
+min_clusters,8
+cluster_eval_points,6000
+silhouette_points,3000
+vq_epochs,25
+lm_d_model,192
+lm_heads,6
+lm_layers,3
+lm_ff,768
+lm_dropout,0.15
+lm_epochs,40
+lm_batch,64
+lm_lr,0.0005
+lm_patience,6
+lm_seeds,"(42, 43, 44)"
+behaviour_classes,"('alarm', 'song', 'contact')"
+labelled_segments_per_class,400
+max_segments_per_labelled_recording,6
+cv_folds,5
+cv_repeats,2
+bootstrap_iterations,500
+abx_triplets,5000
+scaling_fractions,"(0.1, 0.2, 0.4, 0.7, 1.0)"
+frame_study_segments,600
+frame_steps,25
+pseudo_thresholds,"(0.9, 0.8, 0.7, 0.6)"
+ablation_recordings,120
+export_dpi,900
+display_dpi,150
+figure_formats,"('png', 'pdf')"
+keep_raw_audio,True

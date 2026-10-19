@@ -1,0 +1,16 @@
+species,behaviour,n,recall
+Turdus merula,alarm,26,0.46153846153846156
+Turdus merula,song,67,0.8507462686567164
+Turdus merula,contact,19,0.8947368421052632
+Parus major,alarm,55,0.6
+Parus major,song,52,0.7884615384615384
+Parus major,contact,62,0.46774193548387094
+Corvus corone,alarm,134,0.664179104477612
+Corvus corone,song,7,0.5714285714285714
+Corvus corone,contact,64,0.296875
+Erithacus rubecula,alarm,21,0.23809523809523808
+Erithacus rubecula,song,62,0.7096774193548387
+Erithacus rubecula,contact,31,0.5483870967741935
+Fringilla coelebs,alarm,0,
+Fringilla coelebs,song,48,0.75
+Fringilla coelebs,contact,60,0.7833333333333333
